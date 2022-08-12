@@ -59,6 +59,10 @@ export class StoreSetup {
   decrement() {
     this.set('number', (this.get('number') || 0) - 1);
   }
+  reset() {
+    this.set('number', 0);
+    this.set('total', 0);
+  }
 }
 
 // Export an initialized store for easy use across the project
