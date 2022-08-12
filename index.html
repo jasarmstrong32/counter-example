@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./js/main.js" type="module" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>State Management</title>
+  </head>
+  <body>
+    <!-- Template for the component -->
+    <template id="counter">
+      <p>Current counter: <span class="counter"></span></p>
+    </template>
+
+    <!-- Template for the component -->
+    <template id="total">
+      <p>Total counter: <span class="counter"></span></p>
+    </template>
+
+    <click-counter></click-counter>
+    <total-counter></total-counter>
+
+    <!-- Buttons to add and subtract -->
+    <button id="subtract">-1</button>
+    <button id="add">+1</button>
+  </body>
+</html>
