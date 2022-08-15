@@ -1,0 +1,3 @@
+* Reset button to return all numbers to 0
+* Separate "put" into separate items for number and total
+* Separate "get" into separate items for number and total
